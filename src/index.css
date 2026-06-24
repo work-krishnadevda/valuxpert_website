@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Brand corporate-level design tokens */
+  --color-primary: #001732;
+  --color-brand-green: #066054;
+  --color-brand-darkgreen: #044c42;
+  --color-accent-amber: #fcaa33;
+}
+
+.hero-grid {
+  background-image: radial-gradient(circle at 2px 2px, rgba(255, 255, 255, 0.05) 1px, transparent 0);
+  background-size: 40px 40px;
+}

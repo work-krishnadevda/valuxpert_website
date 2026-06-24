@@ -1,0 +1,8 @@
+{
+  "name": "Remix: ValuXpert",
+  "description": "The Operating System for Modern Valuation Companies. Manage cases, optimize field visits, and unify your HRMS under one high-reliability professional platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
