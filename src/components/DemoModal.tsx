@@ -136,7 +136,7 @@ info@valuxpert.in                      </span>
                         <MapPin className="w-5 h-5" />
                       </div>
                       <span className="font-sans font-bold text-xs sm:text-sm text-gray-700 leading-tight">
-                        Tech Hub Center, Sector 62, Noida, UP
+                        A12 Takshila Parisar, 80 Feet Road,Ratlam, Madhya Pradesh 457001
                       </span>
                     </div>
                   </div>
