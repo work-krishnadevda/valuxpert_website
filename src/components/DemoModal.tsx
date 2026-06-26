@@ -40,8 +40,8 @@ export default function DemoModal({ isOpen, onClose, initialFeature }: DemoModal
 *Phone:* ${phone}
 *Message:* ${message}`;
 
-    // 2. Create the WhatsApp URL with your specific number (91 + 8839763070)
-    const whatsappUrl = `https://wa.me/918839763070?text=${encodeURIComponent(whatsappMessage)}`;
+    // 2. Create the WhatsApp URL with your specific number ( +91 877 092 4535)
+    const whatsappUrl = `https://wa.me/918770924535?text=${encodeURIComponent(whatsappMessage)}`;
 
     // 3. Simulate processing, then open WhatsApp and show success screen
     setTimeout(() => {
