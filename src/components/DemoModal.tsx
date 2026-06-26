@@ -32,11 +32,25 @@ export default function DemoModal({ isOpen, onClose, initialFeature }: DemoModal
     setErrorMsg('');
     setIsSubmitting(true);
     
-    // Simulate API request ingestion
+    // 1. Format the message for WhatsApp
+    const whatsappMessage = `*New Demo Request*
+*Name:* ${fullName}
+*Company:* ${companyName}
+*Email:* ${email}
+*Phone:* ${phone}
+*Message:* ${message}`;
+
+    // 2. Create the WhatsApp URL with your specific number (91 + 8839763070)
+    const whatsappUrl = `https://wa.me/918839763070?text=${encodeURIComponent(whatsappMessage)}`;
+
+    // 3. Simulate processing, then open WhatsApp and show success screen
     setTimeout(() => {
       setIsSubmitting(false);
       setSubmitted(true);
-    }, 1000);
+      
+      // Open WhatsApp in a new tab
+      window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+    }, 800);
   };
 
   const handleReset = () => {

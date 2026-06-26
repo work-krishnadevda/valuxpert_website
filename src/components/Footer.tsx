@@ -63,7 +63,7 @@ export default function Footer() {
           </h5>
           <ul className="space-y-2.5 text-xs sm:text-sm text-white/75 font-sans">
             <li><a href="#" onClick={(e) => handleLinkClick(e, "ValuXpert is built on premium cloud-secure standards.")} className="hover:underline hover:text-white transition-colors">About Us</a></li>
-            <li><a href="#" onClick={(e) => handleLinkClick(e, "For fast professional support, email: support@valuxpert.com")} className="hover:underline hover:text-white transition-colors">Support Portal</a></li>
+            <li><a href="#" onClick={(e) => handleLinkClick(e, "For fast professional support, email: info@valuxpert.in    ")} className="hover:underline hover:text-white transition-colors">Support Portal</a></li>
             <li><a href="#" onClick={(e) => handleLinkClick(e, "We use simple local secure cookies to optimize application layout.")} className="hover:underline hover:text-white transition-colors">Cookie Policy</a></li>
             <li><a href="#" onClick={(e) => handleLinkClick(e, "Our Service level agreements guarantee 99.9% API uptime.")} className="hover:underline hover:text-white transition-colors">Terms of Service</a></li>
           </ul>
@@ -75,13 +75,13 @@ export default function Footer() {
             Connect
           </h5>
           <p className="text-xs sm:text-sm text-white/75">
-            Support: <a href="mailto:support@valuxpert.com" className="hover:underline text-white font-medium">support@valuxpert.com</a>
+            Support: <a href="mailto:info@valuxpert.in    " className="hover:underline text-white font-medium">info@valuxpert.in    </a>
           </p>
           <div className="flex gap-4 pt-1 text-white/70">
             <a href="#" aria-label="Website" className="hover:text-white transition-colors">
               <Globe className="w-5 h-5" />
             </a>
-            <a href="mailto:support@valuxpert.com" aria-label="Email" className="hover:text-white transition-colors">
+            <a href="mailto:info@valuxpert.in    " aria-label="Email" className="hover:text-white transition-colors">
               <Mail className="w-5 h-5" />
             </a>
             <a href="#" aria-label="Info" className="hover:text-white transition-colors">
