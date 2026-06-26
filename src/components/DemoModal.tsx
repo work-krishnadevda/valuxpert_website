@@ -117,8 +117,7 @@ export default function DemoModal({ isOpen, onClose, initialFeature }: DemoModal
                         <Mail className="w-5 h-5" />
                       </div>
                       <span className="font-sans font-bold text-sm sm:text-base text-gray-700">
-                        sales@valuxpert.com
-                      </span>
+info@valuxpert.in                      </span>
                     </div>
 
                     {/* sales phone */}
@@ -127,7 +126,7 @@ export default function DemoModal({ isOpen, onClose, initialFeature }: DemoModal
                         <Phone className="w-5 h-5" />
                       </div>
                       <span className="font-sans font-bold text-sm sm:text-base text-gray-700">
-                        +1 (555) 000-0000
+                        +91 877 092 4535
                       </span>
                     </div>
 
